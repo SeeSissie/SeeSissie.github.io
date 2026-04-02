@@ -10,29 +10,29 @@ redirect_from:
 
 Hiiii,
 
+欢迎来到我的个人网站，  
+这里是我记录所学习、所创造、所关心之事的地方。
+
 Welcome to my personal website,  
 A space where I keep track of what I learn, what I make, and what I care about.  
-欢迎来到我的个人网站，  
-这里是我记录所学习、所创造、所关心之事的地方。  
 
-## What you can find here / 你可以在这里看到什么
+##你可以在这里看到什么 / What you can find here
 
-This site currently includes several parts:
+- 教育背景 — 我近二十年的学生时代。
+  Education — Nearly two decades of my life have been shaped by being a student.  
 
-- **Education** — my academic background and learning journey  
-  **教育经历**：我的学习路径与相关经历
+- 科研经历 — 本想搞研究造福人类来的。
+  Research — I once thought I would do research and help make the world better.  
 
-- **Research** — topics, questions, and projects I’m exploring  
-  **研究**：我正在关注的问题、主题与研究内容
+- 项目作品 — 没有用吗，那好玩吗。
+  Projects — If it turns out not to be useful, then at least wasn’t it fun?
 
-- **Projects** — things I have made, joined, or worked on  
-  **项目**：我做过、参与过或正在进行的项目
+- 实习经历 — 支线难打但实在值得。
+  Internships — The side quests are hard, but they are absolutely worth it.
 
-- **Internships** — practical experiences that shaped how I think and work  
-  **实习**：影响我思考与做事方式的实践经历
+- 探索更多 - 嘿嘿
+  Explore - :)
 
-You can also visit the **More** page for some more personal sections, including photography, essays, drawings, and sports.  
-你也可以通过顶部导航中的 **More** 页面，进入一些更个人化的内容，比如摄影、随笔、绘画和运动。
 
 ## About me / 关于我
 
