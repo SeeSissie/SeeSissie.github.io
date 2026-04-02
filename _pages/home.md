@@ -7,15 +7,6 @@ redirect_from:
   - /home.html
 ---
 
----
-permalink: /
-title: "张汐 / Sissie"
-author_profile: true
-redirect_from:
-  - /about/
-  - /about.html
----
-
 Hi, I'm **Sissie (张汐)**.
 
 Welcome to my personal website — a small space where I keep track of what I learn, what I make, and what I care about.  
