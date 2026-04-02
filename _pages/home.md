@@ -16,7 +16,7 @@ Hiiii,
 Welcome to my personal website,  
 A space where I keep track of what I learn, what I make, and what I care about.  
 
-##你可以在这里看到什么 / What you can find here
+## 你可以在这里看到什么 / What you can find here
 
 - 教育背景 — 我近二十年的学生时代。  
   Education — Nearly two decades of my life have been shaped by being a student.  
