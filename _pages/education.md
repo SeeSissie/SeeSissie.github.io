@@ -29,17 +29,17 @@ GPA：3.64 / 4.00，专业排名：2 / 38
 **郑州外国语学校 / Zhengzhou Foreign Language School**    
 高中，理科班
 2016.9 — 2019.6
-郑州
+郑州  
 
-**郑州市第九十四中学 / Zhengzhou Foreign Language School**    
-初中
-2013.9 — 2016.6
-郑州
+**郑州市第九十四中学 / Zhengzhou Foreign Language School**      
+初中  
+2013.9 — 2016.6  
+郑州  
 
-**郑州市龙子湖小学 / Zhengzhou Foreign Language School**    
-小学
-2007.9 — 2013.6
-郑州
+**郑州市龙子湖小学 / Zhengzhou Foreign Language School**      
+小学  
+2007.9 — 2013.6  
+郑州  
 
 
 
