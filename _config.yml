@@ -24,13 +24,13 @@ repository               : "SeeSissie/SeeSissie.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : "张汐/Sissie"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "嘘"
   location         : "Earth"
-  employer         : "Red Brick University"
+  employer         : "Sustech"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "15093137527@163.com" 
 
   # Academic websites
   academia         : # URL
