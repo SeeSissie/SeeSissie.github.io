@@ -7,6 +7,7 @@ redirect_from:
   - /home.html
 ---
 
+
 Hiiii,
 
 Welcome to my personal website,  
