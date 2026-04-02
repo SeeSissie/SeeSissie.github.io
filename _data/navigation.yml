@@ -23,15 +23,16 @@ main:
     
   # - title: "CV"
   #   url: /cv-json/
+  - title: "More"
+    children:
+      - title: "Photography"
+        url: /markdown/
+      
+      - title: "Essays"
+        url: /year-archive/
     
-  - title: "Photography"
-    url: /markdown/
-    
-  - title: "Essays"
-    url: /year-archive/
-    
-  - title: "Drawings"
-    url: /markdown/
+      - title: "Drawings"
+        url: /markdown/
 
-  - title: "Sports"
-    url: /markdown/
+      - title: "Sports"
+        url: /markdown/
