@@ -15,9 +15,6 @@ A space where I keep track of what I learn, what I make, and what I care about.
 欢迎来到我的个人网站，  
 这里是我记录所学习、所创造、所关心之事的地方。  
 
-I built this site as both a personal archive and a public introduction.  
-它既是一个面向自己的长期记录空间，也是一张让别人更快了解我的“个人名片”。
-
 ## What you can find here / 你可以在这里看到什么
 
 This site currently includes several parts:
