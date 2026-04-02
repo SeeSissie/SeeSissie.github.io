@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: ""Learning, creating, and keeping a record of what matters to me."
+title: "Learning, creating, and keeping a record of what matters to me."
 author_profile: true
 redirect_from: 
   - /home/
