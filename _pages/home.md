@@ -34,26 +34,3 @@ A space where I keep track of what I learn, what I make, and what I care about.
   Explore — :)
 
 
-## About me / 关于我
-
-I’m interested in how people learn, create, observe, and express themselves.  
-我对“人如何学习、创造、观察与表达自己”这件事一直很感兴趣。
-
-This website is my way of organizing those interests over time.  
-对我来说，这个网站也是一种长期整理自我、积累内容和留下痕迹的方式。
-
-Sometimes it will look like a portfolio.  
-有时它会更像作品集。
-
-Sometimes it will feel like a notebook.  
-有时它又更像一本开放的笔记。
-
-And sometimes, it is simply a quiet corner of the internet that belongs to me.  
-有时，它也只是互联网里一个安静、属于我自己的角落。
-
-## Contact / 联系方式
-
-If you would like to know more, feel free to explore the pages above or reach out through the links in the sidebar.  
-如果你想进一步了解我，欢迎浏览上方栏目，或通过右侧边栏中的链接联系我。
-
-
