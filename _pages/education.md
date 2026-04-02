@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Education"
+title: "教育背景 / Education"
 permalink: /education/
 author_profile: true
 redirect_from:
