@@ -10,8 +10,11 @@ redirect_from:
 Hiiii,
 
 Welcome to my personal website,
+
 A space where I keep track of what I learn, what I make, and what I care about.
+
 欢迎来到我的个人网站，
+
 这里是我记录所学习、所创造、所关心之事的地方。
 
 I built this site as both a personal archive and a public introduction.  
