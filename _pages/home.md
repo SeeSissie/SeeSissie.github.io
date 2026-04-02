@@ -30,8 +30,8 @@ A space where I keep track of what I learn, what I make, and what I care about.
 - 实习经历 — 支线难打但实在值得。  
   Internships — The side quests are hard, but they are absolutely worth it.
 
-- 探索更多 - 嘿嘿  
-  Explore - :)
+- 探索更多 — 嘿嘿  
+  Explore — :)
 
 
 ## About me / 关于我
