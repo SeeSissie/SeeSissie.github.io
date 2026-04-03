@@ -2,7 +2,7 @@
 title: "北京百度网讯科技有限公司"  
 collection: teaching  
 type: "产品经理 / Product Manager"  
-permalink: /teaching/internshipBaidu/  
+permalink: /work experiences/internshipBaidu/  
 venue: "百度 APP 青春版"  
 date: 2021-11-01  
 location: "北京 / 中国"  
