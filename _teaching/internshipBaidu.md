@@ -1,14 +1,14 @@
 ---
-title: "北京百度网讯科技有限公司"  
-collection: teaching  
-type: "产品经理 / Product Manager"  
-permalink: /work experiences/internshipBaidu/  
-venue: "百度 APP 青春版"  
-date: 2021-11-01  
-location: "北京 / 中国"  
+title: "北京百度网讯科技有限公司"
+collection: teaching
+type: "产品经理 / Product Manager"
+permalink: /work-experiences/baidu-app-lite/
+venue: "百度 APP 青春版"
+date: 2021-11-01
+location: "北京 / 中国"
 ---
 
-在北京百度网讯科技有限公司实习期间，我参与了百度 APP 青春版相关产品需求、日常运营支持与活动协同工作，协助推进产品功能迭代与运营活动落地。  
+在北京百度网讯科技有限公司实习期间，我参与了百度 APP 青春版相关产品需求、日常运营支持与活动协同工作，协助推进产品功能迭代与运营活动落地。
 
 ### 主要工作内容
 
