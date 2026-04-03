@@ -33,4 +33,10 @@ A space where I keep track of what I learn, what I make, and what I care about.
 - 探索更多 — 嘿嘿  
   Explore — :)
 
+## 关于我 / About me  
+
+探索自我中...  
+loading...  
+
+
 
