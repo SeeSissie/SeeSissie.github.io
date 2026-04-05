@@ -37,7 +37,7 @@ duration: "2021.11 — 2022.03"
 ### 项目展示
 
 <div style="text-align: center;">
-  <img src="/images/baidu-app-lite.jpg" alt="项目图片" style="max-width: 88%; border-radius: 8px;">
+  <img src="/images/internshipBaidu.png" alt="项目图片" style="max-width: 88%; border-radius: 8px;">
 </div>
 
 <p style="text-align: center; font-size: 0.95em; color: #666;">
