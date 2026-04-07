@@ -24,5 +24,5 @@ Things related to sports, training, or records.
 
 ### Some words left for the beloved  
 A password-protected corner with a short note and a video.  
-[Enter](/beloved/)
+[Enter](/private/left.html)
 
