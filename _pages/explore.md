@@ -21,3 +21,8 @@ Sketches, illustrations, and visual experiments.
 ### Sports
 Things related to sports, training, or records.  
 [See Sports](/sports/)
+
+### Some words left for the beloved  
+A password-protected corner with a short note and a video.  
+[Enter](/beloved/)
+
