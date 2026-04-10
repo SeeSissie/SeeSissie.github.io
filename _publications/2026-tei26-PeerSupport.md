@@ -1,13 +1,13 @@
 ---
 title: "From Self-Awareness to Peer Support: A Tangible Device for Physiological Stress Sharing"
 collection: publications
-permalink: /publication/tei26-stress-sharing/
+permalink: /publication/tei26-PeerSupport/
 date: 2026-01-01
 
 citation: 'Zhang, X., Zordan, M.* (2026). From Self-Awareness to Peer Support: A Tangible Device for Physiological Stress Sharing. In Proceedings of the Twentieth International Conference on Tangible, Embedded, and Embodied Interaction (TEI ’26).'
 citation_link: 'https://doi.org/10.1145/3731459.3779332'
 
-image: '/images/publications/tei26-stress-sharing.jpg'
+image: '/images/publications/PeerSupport.jpg'
 
 keywords:
   - Tangible Interaction
@@ -15,5 +15,5 @@ keywords:
   - Physiological Computing
   - Peer Support
 
-paperurl: '/files/tei26-stress-sharing.pdf'
+paperurl: '/files/PeerSupport.pdf'
 ---
