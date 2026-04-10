@@ -11,32 +11,12 @@ My research interests lie in [请在这里写你的研究兴趣].
 
 <p>
 I am especially interested in [方向 1], [方向 2], and [方向 3].
-My work focuses on [你希望突出的一句话总结].
 </p>
 
 <hr />
 
 <h2>Publications</h2>
 
-{% include base_path %}
-
-{% if site.publication_category %}
-  {% for category in site.publication_category %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h3>{{ category[1].title }}</h3>
-        <hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+{% for post in site.publications reversed %}
+  {% include publication-card.html post=post %}
+{% endfor %}
