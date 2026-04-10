@@ -1,0 +1,35 @@
+<div class="publication-card" style="margin-bottom: 3em; padding-bottom: 2em; border-bottom: 1px solid #e5e5e5;">
+
+  <p style="font-size: 1.05em; line-height: 1.8; margin-bottom: 1em;">
+    {% if include.post.citation_link %}
+      <a href="{{ include.post.citation_link }}" target="_blank" rel="noopener noreferrer">
+        {{ include.post.citation }}
+      </a>
+    {% else %}
+      {{ include.post.citation }}
+    {% endif %}
+  </p>
+
+  {% if include.post.image %}
+    <div style="margin: 1em 0 1.2em 0;">
+      <img src="{{ include.post.image | prepend: base_path }}" alt="{{ include.post.title }}" style="max-width: 100%; border-radius: 8px;">
+    </div>
+  {% endif %}
+
+  {% if include.post.keywords %}
+    <p style="margin: 0.6em 0 1.2em 0; color: #666; font-size: 0.95em;">
+      <strong>Keywords:</strong>
+      {{ include.post.keywords | join: ", " }}
+    </p>
+  {% endif %}
+
+  {% if include.post.paperurl %}
+    <p style="margin-top: 1em;">
+      <a href="{{ include.post.paperurl }}" target="_blank" rel="noopener noreferrer"
+         style="display: inline-block; padding: 0.55em 1em; border: 1px solid #222; border-radius: 6px; text-decoration: none;">
+        Download the PDF
+      </a>
+    </p>
+  {% endif %}
+
+</div>
