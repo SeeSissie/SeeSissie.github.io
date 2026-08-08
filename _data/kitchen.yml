@@ -110,7 +110,7 @@ sections:
   - name: "🥛 Shakes"
     items:
       - name: "牛油果羽衣甘蓝酸奶昔"
-        image: "/images/kitchen/avacado.jpg"
+        image: "/images/kitchen/avacadoShake.jpg"
         ingredients:
           - 羽衣甘蓝
           - 牛油果
