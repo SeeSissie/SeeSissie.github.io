@@ -7,6 +7,7 @@ sections:
           - 意面
           - 番茄意面酱
           - 香煎鸡胸
+          - 芝士片
           
       - name: "罗勒意面"
         image: "/images/kitchen/spaghetti.jpg"
@@ -14,6 +15,26 @@ sections:
           - 意面
           - 罗勒酱
           - 香煎鸡胸
+          - 芝士片
+
+      - name: "鳗鱼饭"
+        image: "/images/kitchen/unadon.jpg"
+        ingredients:
+          - 蒲烧鳗鱼
+          - 白米饭
+          - 煎鸡蛋
+          - 拌海草
+          
+      - name: "咖喱饭"
+        image: "/images/kitchen/curry.jpg"
+        ingredients:
+          - 咖喱
+          - 土豆
+          - 胡萝卜
+          - 彩椒
+          - 肥牛卷
+          - 白米饭
+          - 牛奶
 
 
 
