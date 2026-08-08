@@ -1,1 +1,42 @@
+---
+permalink: /kitchen/
+title: "西西红柿的厨房"
+layout: single
+author_profile: true
+---
+
+<p>
+  Welcome to Sissie's Kitchen.<br>
+  尊贵的客人请吃
+</p>
+
+{% for section in site.data.kitchen.sections %}
+
+<h2>{{ section.name }}</h2>
+
+{% for item in section.items %}
+
+<div style="margin-bottom: 2rem;">
+
+  <h3>{{ item.name }}</h3>
+
+  {% if item.image %}
+  <img
+    src="{{ item.image | relative_url }}"
+    alt="{{ item.name }}"
+    style="max-width: 300px; width: 100%; border-radius: 8px;"
+  >
+  {% endif %}
+
+  {% if item.ingredients %}
+  <p>
+    {{ item.ingredients | join: " · " }}
+  </p>
+  {% endif %}
+
+</div>
+
+{% endfor %}
+
+{% endfor %}
 
