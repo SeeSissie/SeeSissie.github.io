@@ -58,6 +58,16 @@ sections:
           - 肥牛卷
           - 生食鸡蛋
 
+      - name: "香烤杂蔬"
+        image: "/images/kitchen/roastVegetables.jpg"
+        ingredients:
+          - 各种蔬菜
+
+      - name: "香煎三文鱼"
+        image: "/images/kitchen/salmon.jpg"
+        ingredients:
+          - 三文鱼
+          - 黄油
 
 
   - name: "🎂 Desserts"
@@ -79,19 +89,31 @@ sections:
           - 鸡蛋
           - 面粉
           - 蓝莓干/蔓越莓干
+
+      - name: "柠檬磅蛋糕"
+        image: "/images/kitchen/poundCake.jpg"
+        ingredients:
+          - 黄油
+          - 糖
+          - 鸡蛋
+          - 面粉
+          - 柠檬
       
   - name: "🥤 Coffee"
     items:
-      - name: "Dirty"
-        image: "/images/kitchen/dirty.jpg"
+      - name: "经典拿铁 （热）"
+        image: "/images/kitchen/latteClassic.jpg"
         ingredients:
-          - Espresso
+          - 浓缩咖啡
           - 牛奶
           
   - name: "🥛 Shakes"
     items:
-      - name: "Dirty"
-        image: "/images/kitchen/dirty.jpg"
+      - name: "牛油果羽衣甘蓝酸奶昔"
+        image: "/images/kitchen/avacado.jpg"
         ingredients:
-          - Espresso
+          - 羽衣甘蓝
+          - 牛油果
+          - 酸奶
           - 牛奶
+          - 巴旦木
