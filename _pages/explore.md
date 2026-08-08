@@ -26,3 +26,8 @@ Things related to sports, training, or records.
 A password-protected corner with a short note and a video.  
 [Enter](/private/left.html)
 
+### 西西红柿的厨房
+Chef养成中  
+[See the menu](/kitchen/)
+
+
