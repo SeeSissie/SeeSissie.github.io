@@ -1,0 +1,41 @@
+sections:
+  - name: "🍳 菜"
+    items:
+      - name: "番茄炒蛋"
+        image: "/images/kitchen/tomato-eggs.jpg"
+        ingredients:
+          - 番茄
+          - 鸡蛋
+          - 葱
+
+      - name: "可乐鸡翅"
+        image: "/images/kitchen/cola-chicken-wings.jpg"
+        ingredients:
+          - 鸡翅
+          - 可乐
+          - 生抽
+          - 姜
+
+      - name: "黑椒牛肉意面"
+        image: "/images/kitchen/beef-pasta.jpg"
+        ingredients:
+          - 意面
+          - 牛肉
+          - 洋葱
+          - 黑胡椒
+
+  - name: "🥤 饮品"
+    items:
+      - name: "青提气泡水"
+        image: "/images/kitchen/grape-soda.jpg"
+        ingredients:
+          - 青提
+          - 气泡水
+          - 青柠
+          - 冰块
+
+      - name: "Dirty"
+        image: "/images/kitchen/dirty.jpg"
+        ingredients:
+          - Espresso
+          - 牛奶
