@@ -13,7 +13,7 @@ sections:
         image: "/images/kitchen/spaghetti.jpg"
         ingredients:
           - 意面
-          - 罗勒酱
+          - 罗勒青酱
           - 香煎鸡胸
           - 芝士片
 
@@ -35,6 +35,28 @@ sections:
           - 肥牛卷
           - 白米饭
           - 牛奶
+
+      - name: "三明治"
+        image: "/images/kitchen/sandwich.jpg"
+        ingredients:
+          - 恰巴塔
+          - 芝麻菜
+          - 奶油奶酪
+          - 罗勒青酱
+          - 彩椒
+          - 帕雀斯牛肉片
+
+      - name: "寿喜锅"
+        image: "/images/kitchen/sukiyaki.jpg"
+        ingredients:
+          - 寿喜烧汁
+          - 嫩豆腐
+          - 胡萝卜
+          - 洋葱
+          - 娃娃菜
+          - 菇类
+          - 肥牛卷
+          - 生食鸡蛋
 
 
 
