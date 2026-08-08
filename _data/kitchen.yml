@@ -1,12 +1,21 @@
 sections:
-  - name: "🍳 饭菜"
+  - name: "🍳 主食"
     items:
-      - name: "番茄炒蛋"
-        image: "/images/kitchen/tomato-eggs.jpg"
+      - name: "番茄意面"
+        image: "/images/kitchen/spaghettiTomato.jpg"
         ingredients:
-          - 番茄
-          - 鸡蛋
-          - 葱
+          - 意面
+          - 番茄意面酱
+          - 香煎鸡胸
+          
+      - name: "罗勒意面"
+        image: "/images/kitchen/spaghetti.jpg"
+        ingredients:
+          - 意面
+          - 罗勒酱
+          - 香煎鸡胸
+
+
 
   - name: "🥤 Desserts"
     items:
