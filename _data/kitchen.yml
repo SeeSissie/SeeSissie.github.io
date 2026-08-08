@@ -1,5 +1,5 @@
 sections:
-  - name: "🍳 主食"
+  - name: "🍚 主食"
     items:
       - name: "番茄意面"
         image: "/images/kitchen/spaghettiTomato.jpg"
@@ -60,14 +60,26 @@ sections:
 
 
 
-  - name: "🥤 Desserts"
+  - name: "🎂 Desserts"
     items:
-      - name: "Dirty"
-        image: "/images/kitchen/dirty.jpg"
+      - name: "巴斯克"
+        image: "/images/kitchen/basque.jpg"
         ingredients:
-          - Espresso
-          - 牛奶
+          - 奶油奶酪
+          - 淡奶油
+          - 鸡蛋
+          - 面粉
+          - 糖
 
+      - name: "莓莓饼干"
+        image: "/images/kitchen/butterBiscuit.jpg"
+        ingredients:
+          - 黄油
+          - 糖
+          - 鸡蛋
+          - 面粉
+          - 蓝莓干/蔓越莓干
+      
   - name: "🥤 Coffee"
     items:
       - name: "Dirty"
@@ -76,7 +88,7 @@ sections:
           - Espresso
           - 牛奶
           
-  - name: "🥤 Drinks"
+  - name: "🥛 Shakes"
     items:
       - name: "Dirty"
         image: "/images/kitchen/dirty.jpg"
