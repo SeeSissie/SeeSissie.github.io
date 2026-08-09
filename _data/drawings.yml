@@ -1,1 +1,22 @@
+sections:
+  - name: "Sketches"
+    items:
+      - image: "/images/drawings/sketch01.JPG"
+      - image: "/images/drawings/sketch02.JPG"
+      - image: "/images/drawings/sketch03.JPG"
+      - image: "/images/drawings/sketch04.JPG"
+      - image: "/images/drawings/sketch05.JPG"
+      - image: "/images/drawings/sketch06.JPG"
+      - image: "/images/drawings/sketch07.JPG"
+      - image: "/images/drawings/sketch08.JPG"
+
+  - name: "Watercolors"
+    items:
+      - image: "/images/drawings/watercolor01.JPG"
+      - image: "/images/drawings/watercolor02.JPG"
+      - image: "/images/drawings/watercolor03.JPG"
+      - image: "/images/drawings/watercolor04.JPG"
+      - image: "/images/drawings/watercolor05.JPG"
+      - image: "/images/drawings/watercolor06.JPG"
+      - image: "/images/drawings/watercolor07.JPG"
 
