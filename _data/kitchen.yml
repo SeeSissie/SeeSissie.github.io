@@ -36,7 +36,7 @@ sections:
           - 白米饭
           - 牛奶
 
-      - name: "三明治"
+      - name: "小黄帽三明治"
         image: "/images/kitchen/sandwich.jpg"
         ingredients:
           - 恰巴塔
@@ -46,6 +46,13 @@ sections:
           - 彩椒
           - 帕雀斯牛肉片
 
+      - name: "酸奶三明治"
+        image: "/images/kitchen/yogurtSandwich.webp"
+        ingredients:
+          - 酸面包
+          - 希腊酸奶酱
+          - 滑蛋
+          
       - name: "寿喜锅"
         image: "/images/kitchen/sukiyaki.jpg"
         ingredients:
@@ -63,10 +70,16 @@ sections:
         ingredients:
           - 各种蔬菜
 
+      - name: "水煮杂蔬"
+        image: "/images/kitchen/boiledVegetables.webp"
+        ingredients:
+          - 各种蔬菜
+
       - name: "香煎三文鱼"
-        image: "/images/kitchen/salmon.jpg"
+        image: "/images/kitchen/pansearedSalmon.webp"
         ingredients:
           - 三文鱼
+          - 小番茄
           - 黄油
 
 
