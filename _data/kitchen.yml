@@ -98,6 +98,13 @@ sections:
           - 鸡蛋
           - 面粉
           - 柠檬
+
+      - name: "酒酿红豆年糕汤"
+        image: "/images/kitchen/redbean。webp"
+        ingredients:
+          - 红豆
+          - 年糕
+          - 醪糟
       
   - name: "🥤 Coffee"
     items:
@@ -117,3 +124,10 @@ sections:
           - 酸奶
           - 牛奶
           - 巴旦木
+
+    items:
+      - name: "牛油果雪梨汁"
+        image: "/images/kitchen/avacadoPear.webp"
+        ingredients:
+          - 雪梨
+          - 牛油果
