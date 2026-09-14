@@ -128,6 +128,14 @@ sections:
           - 牛奶
           
   - name: "🥛 Shakes"
+
+    items:
+      - name: "牛油果雪梨汁"
+        image: "/images/kitchen/avacadoPear.webp"
+        ingredients:
+          - 雪梨
+          - 牛油果
+
     items:
       - name: "牛油果羽衣甘蓝酸奶昔"
         image: "/images/kitchen/avacadoShake.jpg"
@@ -137,10 +145,3 @@ sections:
           - 酸奶
           - 牛奶
           - 巴旦木
-
-    items:
-      - name: "牛油果雪梨汁"
-        image: "/images/kitchen/avacadoPear.webp"
-        ingredients:
-          - 雪梨
-          - 牛油果
