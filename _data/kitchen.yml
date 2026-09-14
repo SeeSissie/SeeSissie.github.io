@@ -128,12 +128,22 @@ sections:
           - 醪糟
       
   - name: "🥤 Coffee"
+  
     items:
       - name: "经典拿铁 （热）"
         image: "/images/kitchen/latteClassic.jpg"
         ingredients:
           - 浓缩咖啡
           - 牛奶
+
+    items:
+      - name: "牛油果拿铁"
+        image: "/images/kitchen/avacadoCoffee"
+        ingredients:
+          - 牛油果泥
+          - 浓缩咖啡
+          - 牛奶
+          - 炼乳
           
   - name: "🥛 Shakes"
 
