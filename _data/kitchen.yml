@@ -88,6 +88,13 @@ sections:
           - 小番茄
           - 黄油
 
+      - name: "酸奶土豆沙拉"
+        image: "/images/kitchen/yogurtpotatosalad"
+        ingredients:
+          - 无糖酸奶
+          - 土豆
+          - 配菜
+
 
   - name: "🎂 Desserts"
     items:
