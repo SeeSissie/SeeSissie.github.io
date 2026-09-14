@@ -71,7 +71,6 @@ sections:
           - 肥牛卷
           - 生食鸡蛋
 
-
       - name: "杂蔬煮煎烤"
         image: "/images/kitchen/boiledVegetables.webp"
         ingredients:
@@ -91,7 +90,7 @@ sections:
           - 酸奶酱
 
       - name: "酸奶土豆沙拉"
-        image: "/images/kitchen/yogurtpotatosalad"
+        image: "/images/kitchen/yogurtpotatosalad.webp"
         ingredients:
           - 无糖酸奶
           - 土豆
@@ -145,19 +144,40 @@ sections:
   - name: "🥤 Coffee"
   
     items:
-      - name: "经典拿铁 （热）"
+      - name: "经典拿铁（冰/热）"
         image: "/images/kitchen/latteClassic.jpg"
         ingredients:
           - 浓缩咖啡
           - 牛奶
 
-      - name: "牛油果拿铁"
+      - name: "牛油果拿铁（冰）"
         image: "/images/kitchen/avacadoCoffee.webp"
         ingredients:
           - 牛油果泥
           - 浓缩咖啡
           - 牛奶
           - 炼乳
+
+      - name: "燕麦/巴旦木拿铁（冰/热）"
+        image: ""
+        ingredients:
+          - 浓缩咖啡
+          - 燕麦奶/巴旦木奶
+
+      - name: "经典dirty"
+        image: ""
+        ingredients:
+          - 浓缩咖啡
+          - 提纯牛奶
+
+      - name: "奶油可可雪顶咖啡"
+        image: "/images/kitchen/chocolatecoffee.png"
+        ingredients:
+          - 浓缩咖啡
+          - 牛奶
+          - 巧克力泥
+          - 可可粉/巧克力碎
+          - 奶油
 
       - name: "奶油美式"
         image: "/images/kitchen/milktopcoffee.webp"
