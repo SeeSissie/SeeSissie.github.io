@@ -144,6 +144,13 @@ sections:
           - 浓缩咖啡
           - 牛奶
           - 炼乳
+
+    items:
+      - name: "奶油美式"
+        image: "/images/kitchen/milktopcoffee"
+        ingredients:
+          - 浓缩咖啡
+          - 淡奶油
           
   - name: "🥛 Shakes"
 
