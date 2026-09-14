@@ -103,6 +103,14 @@ sections:
           - 面粉
           - 蓝莓干/蔓越莓干
 
+      - name: "米面包"
+        image: "/images/kitchen/ricebread.webp"
+        ingredients:
+          - 大米粉
+          - 面包粉
+          - 鸡蛋
+          - 黄油
+
       - name: "柠檬磅蛋糕"
         image: "/images/kitchen/poundCake.jpg"
         ingredients:
