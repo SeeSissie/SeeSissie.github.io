@@ -17,6 +17,12 @@ sections:
           - 香煎鸡胸
           - 芝士片
 
+      - name: "番茄浓汤面"
+        image: "/images/kitchen/tomatonoodles.webp"
+        ingredients:
+          - 番茄
+          - 面
+
       - name: "鳗鱼饭"
         image: "/images/kitchen/unadon.jpg"
         ingredients:
