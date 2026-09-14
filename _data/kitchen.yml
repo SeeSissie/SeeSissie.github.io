@@ -136,7 +136,6 @@ sections:
           - 浓缩咖啡
           - 牛奶
 
-    items:
       - name: "牛油果拿铁"
         image: "/images/kitchen/avacadoCoffee"
         ingredients:
@@ -145,7 +144,6 @@ sections:
           - 牛奶
           - 炼乳
 
-    items:
       - name: "奶油美式"
         image: "/images/kitchen/milktopcoffee"
         ingredients:
@@ -161,7 +159,6 @@ sections:
           - 雪梨
           - 牛油果
 
-    items:
       - name: "牛油果羽衣甘蓝酸奶昔"
         image: "/images/kitchen/avacadoShake.jpg"
         ingredients:
