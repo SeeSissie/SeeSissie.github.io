@@ -179,6 +179,18 @@ sections:
           - 可可粉/巧克力碎
           - 奶油
 
+      - name: "椰青美式"
+        image: ""
+        ingredients:
+          - 浓缩咖啡
+          - 椰子水
+
+      - name: "橙C美式"
+        image: ""
+        ingredients:
+          - 浓缩咖啡
+          - NFC橙汁
+
       - name: "奶油美式"
         image: "/images/kitchen/milktopcoffee.webp"
         ingredients:
@@ -188,12 +200,6 @@ sections:
   - name: "🥛 Shakes"
 
     items:
-      - name: "牛油果雪梨汁"
-        image: "/images/kitchen/avacadoPear.webp"
-        ingredients:
-          - 雪梨
-          - 牛油果
-
       - name: "牛油果羽衣甘蓝酸奶昔"
         image: "/images/kitchen/avacadoShake.jpg"
         ingredients:
@@ -202,3 +208,27 @@ sections:
           - 酸奶
           - 牛奶
           - 巴旦木
+    
+      - name: "牛油果雪梨汁"
+        image: "/images/kitchen/avacadoPear.webp"
+        ingredients:
+          - 雪梨
+          - 牛油果
+
+      - name: "百香果柠檬水"
+        image: ""
+        ingredients:
+          - 百香果
+          - 柠檬
+
+      - name: "羽衣甘蓝苹果汁"
+        image: ""
+        ingredients:
+          - 羽衣甘蓝
+          - 苹果
+
+      - name: "绿豆牛乳"
+        image: ""
+        ingredients:
+          - 绿豆泥
+          - 牛奶
