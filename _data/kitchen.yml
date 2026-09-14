@@ -71,12 +71,8 @@ sections:
           - 肥牛卷
           - 生食鸡蛋
 
-      - name: "香烤杂蔬"
-        image: "/images/kitchen/roastVegetables.jpg"
-        ingredients:
-          - 各种蔬菜
 
-      - name: "水煮杂蔬"
+      - name: "杂蔬煮煎烤"
         image: "/images/kitchen/boiledVegetables.webp"
         ingredients:
           - 各种蔬菜
@@ -87,6 +83,12 @@ sections:
           - 三文鱼
           - 小番茄
           - 黄油
+
+      - name: "咸酸奶酱鸡胸"
+        image: ""
+        ingredients:
+          - 鸡胸肉
+          - 酸奶酱
 
       - name: "酸奶土豆沙拉"
         image: "/images/kitchen/yogurtpotatosalad"
@@ -134,7 +136,7 @@ sections:
           - 柠檬
 
       - name: "酒酿红豆年糕汤"
-        image: "/images/kitchen/redbean。webp"
+        image: "/images/kitchen/redbean.webp"
         ingredients:
           - 红豆
           - 年糕
@@ -150,7 +152,7 @@ sections:
           - 牛奶
 
       - name: "牛油果拿铁"
-        image: "/images/kitchen/avacadoCoffee"
+        image: "/images/kitchen/avacadoCoffee.webp"
         ingredients:
           - 牛油果泥
           - 浓缩咖啡
@@ -158,7 +160,7 @@ sections:
           - 炼乳
 
       - name: "奶油美式"
-        image: "/images/kitchen/milktopcoffee"
+        image: "/images/kitchen/milktopcoffee.webp"
         ingredients:
           - 浓缩咖啡
           - 淡奶油
