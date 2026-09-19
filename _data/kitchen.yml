@@ -23,6 +23,15 @@ sections:
           - 番茄
           - 面
 
+      - name: "番茄牛肉烩饭"
+        image: "/images/kitchen/tomatobeefrice.webp"
+        ingredients:
+          - 卤牛肉
+          - 番茄
+          - 土豆
+          - 青菜
+          - 白米饭
+
       - name: "鳗鱼饭"
         image: "/images/kitchen/unadon.jpg"
         ingredients:
@@ -108,6 +117,18 @@ sections:
           - 面粉
           - 糖
 
+      - name: "巧克力玛芬"
+        image: "/images/kitchen/chocolatemuffin.webp"
+        ingredients:
+          - 玉米油
+          - 糖
+          - 鸡蛋
+          - 低筋面粉
+          - 玉米淀粉
+          - 巧克力豆
+          - 可可粉
+          - 泡打粉
+
       - name: "莓莓饼干"
         image: "/images/kitchen/butterBiscuit.jpg"
         ingredients:
@@ -124,6 +145,17 @@ sections:
           - 面包粉
           - 鸡蛋
           - 黄油
+
+      - name: "抹茶乳酪米面包"
+        image: "/images/kitchen/mocharicebread.webp"
+        ingredients:
+          - 大米粉
+          - 面包粉
+          - 鸡蛋
+          - 黄油
+          - 抹茶粉
+          - 奶油奶酪
+          - 淡奶油
 
       - name: "柠檬磅蛋糕"
         image: "/images/kitchen/poundCake.jpg"
@@ -145,7 +177,7 @@ sections:
   
     items:
       - name: "经典拿铁（冰/热）"
-        image: "/images/kitchen/latteClassic.jpg"
+        image: "/images/kitchen/hotLatte.webp"
         ingredients:
           - 浓缩咖啡
           - 牛奶
@@ -158,6 +190,14 @@ sections:
           - 牛奶
           - 炼乳
 
+      - name: "肉桂姜黄拿铁（热）"
+        image: "/images/kitchen/Turmeric Cinnamon Latte.webp"
+        ingredients:
+          - 浓缩咖啡
+          - 牛奶
+          - 肉桂粉
+          - 姜黄粉
+
       - name: "燕麦/巴旦木拿铁（冰/热）"
         image: ""
         ingredients:
@@ -165,7 +205,7 @@ sections:
           - 燕麦奶/巴旦木奶
 
       - name: "经典dirty"
-        image: ""
+        image: "/images/kitchen/dirty.webp"
         ingredients:
           - 浓缩咖啡
           - 提纯牛奶
@@ -186,10 +226,16 @@ sections:
           - 椰子水
 
       - name: "橙C美式"
-        image: ""
+        image: "/images/kitchen/orangecoffee.webp"
         ingredients:
           - 浓缩咖啡
           - NFC橙汁
+
+      - name: "冰葡美式"
+        image: "/images/kitchen/grapecoffee.webp"
+        ingredients:
+          - 浓缩咖啡
+          - 白葡萄汁
 
       - name: "奶油美式"
         image: "/images/kitchen/milktopcoffee.webp"
