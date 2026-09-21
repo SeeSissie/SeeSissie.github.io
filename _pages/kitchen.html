@@ -2,41 +2,189 @@
 permalink: /kitchen/
 title: "西西红柿的厨房"
 layout: single
-author_profile: true
+author_profile: false
 ---
 
-<p>
-  Welcome to Sissie's Kitchen.<br>
-  尊贵的客人请吃
-</p>
+<div class="kitchen">
 
-{% for section in site.data.kitchen.sections %}
+  <header class="kitchen-intro">
+    <p class="kitchen-intro__eyebrow">SISSIE'S KITCHEN</p>
 
-<h2>{{ section.name }}</h2>
+    <p class="kitchen-intro__text">
+      Welcome to Sissie's Kitchen.<br>
+      尊贵的客人请吃。
+    </p>
+  </header>
 
-{% for item in section.items %}
 
-<div style="margin-bottom: 2rem;">
+  <!-- Category filters -->
+  <nav class="kitchen-filters" aria-label="菜单分类">
 
-  <h3>{{ item.name }}</h3>
+    <button
+      class="kitchen-filter is-active"
+      type="button"
+      data-filter="all"
+      aria-pressed="true"
+    >
+      全部
+    </button>
 
-  {% if item.image %}
-  <img
-    src="{{ item.image | relative_url }}"
-    alt="{{ item.name }}"
-    style="max-width: 300px; width: 100%; border-radius: 8px;"
-  >
-  {% endif %}
+    {% for section in site.data.kitchen.sections %}
 
-  {% if item.ingredients %}
-  <p>
-    {{ item.ingredients | join: " · " }}
-  </p>
-  {% endif %}
+    <button
+      class="kitchen-filter"
+      type="button"
+      data-filter="{{ forloop.index0 }}"
+      aria-pressed="false"
+    >
+      {{ section.name }}
+    </button>
+
+    {% endfor %}
+
+  </nav>
+
+
+  <!-- Menu -->
+  <div class="kitchen-menu">
+
+    {% for section in site.data.kitchen.sections %}
+
+    {% assign section_index = forloop.index0 %}
+
+    <section
+      class="kitchen-section"
+      data-section="{{ section_index }}"
+    >
+
+      <div class="kitchen-section__heading">
+        <h2>{{ section.name }}</h2>
+        <span>{{ section.items.size }} items</span>
+      </div>
+
+
+      <div class="kitchen-grid">
+
+        {% for item in section.items %}
+
+        <article class="kitchen-card">
+
+          <div class="kitchen-card__content">
+
+            <h3 class="kitchen-card__name">
+              {{ item.name }}
+            </h3>
+
+
+            {% if item.description %}
+            <p class="kitchen-card__description">
+              {{ item.description }}
+            </p>
+            {% endif %}
+
+
+            {% if item.ingredients %}
+            <p class="kitchen-card__ingredients">
+              {{ item.ingredients | join: " · " }}
+            </p>
+            {% endif %}
+
+
+            {% if item.tags %}
+            <div class="kitchen-card__tags">
+
+              {% for tag in item.tags %}
+              <span>{{ tag }}</span>
+              {% endfor %}
+
+            </div>
+            {% endif %}
+
+          </div>
+
+
+          {% if item.image %}
+
+          <a
+            class="kitchen-card__image"
+            href="{{ item.image | relative_url }}"
+            target="_blank"
+            rel="noopener"
+            aria-label="查看 {{ item.name }} 大图"
+          >
+
+            <img
+              src="{{ item.image | relative_url }}"
+              alt="{{ item.name }}"
+              loading="lazy"
+              decoding="async"
+            >
+
+          </a>
+
+          {% endif %}
+
+        </article>
+
+        {% endfor %}
+
+      </div>
+
+    </section>
+
+    {% endfor %}
+
+  </div>
 
 </div>
 
-{% endfor %}
 
-{% endfor %}
+<script>
+document.addEventListener("DOMContentLoaded", function () {
 
+  const buttons =
+    document.querySelectorAll(".kitchen-filter");
+
+  const sections =
+    document.querySelectorAll(".kitchen-section");
+
+
+  buttons.forEach(function (button) {
+
+    button.addEventListener("click", function () {
+
+      const filter = button.dataset.filter;
+
+
+      buttons.forEach(function (btn) {
+
+        const active =
+          btn.dataset.filter === filter;
+
+        btn.classList.toggle(
+          "is-active",
+          active
+        );
+
+        btn.setAttribute(
+          "aria-pressed",
+          active
+        );
+
+      });
+
+
+      sections.forEach(function (section) {
+
+        section.hidden =
+          filter !== "all" &&
+          section.dataset.section !== filter;
+
+      });
+
+    });
+
+  });
+
+});
+</script>
