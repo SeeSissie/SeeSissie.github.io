@@ -91,6 +91,10 @@
   margin-bottom: 4.5rem;
 }
 
+.kitchen-section[hidden] {
+  display: none !important;
+}
+
 
 .kitchen-section__heading {
   display: flex;
