@@ -1,1 +1,85 @@
+---
+layout: single
+---
 
+<div class="photo-collection">
+
+  <p class="photo-collection__back">
+    <a href="{{ '/photography/' | relative_url }}">
+      ← Photography
+    </a>
+  </p>
+
+
+  <header class="photo-collection__header">
+
+    {% if page.location or page.year %}
+    <p class="photo-collection__meta">
+
+      {% if page.location %}
+        {{ page.location }}
+      {% endif %}
+
+      {% if page.location and page.year %}
+        ·
+      {% endif %}
+
+      {% if page.year %}
+        {{ page.year }}
+      {% endif %}
+
+    </p>
+    {% endif %}
+
+
+    {% if page.camera %}
+    <p class="photo-collection__camera">
+      {{ page.camera }}
+    </p>
+    {% endif %}
+
+
+    {% if page.description %}
+    <p class="photo-collection__description">
+      {{ page.description }}
+    </p>
+    {% endif %}
+
+  </header>
+
+
+  <div class="photo-collection__grid">
+
+    {% for photo in page.photos %}
+
+    <figure class="photo-collection__item">
+
+      <a
+        href="{{ photo.image | relative_url }}"
+        target="_blank"
+        rel="noopener"
+      >
+
+        <img
+          src="{{ photo.image | relative_url }}"
+          alt="{{ photo.alt | default: page.title }}"
+          loading="lazy"
+          decoding="async"
+        >
+
+      </a>
+
+
+      {% if photo.caption %}
+      <figcaption>
+        {{ photo.caption }}
+      </figcaption>
+      {% endif %}
+
+    </figure>
+
+    {% endfor %}
+
+  </div>
+
+</div>
