@@ -12,16 +12,16 @@ camera: "Canon 200D"
 description: "家附近的龙子湖公园，夏天的绿林，光影"
 
 photos:
-  - image: "/images/photography/summer01.webp"
+  - image: "/images/photography/summer1.webp"
 
-  - image: "/images/photography/summer02.webp"
+  - image: "/images/photography/summer2.webp"
 
-  - image: "/images/photography/summer03.webp"
+  - image: "/images/photography/summer3.webp"
 
-  - image: "/images/photography/summer04.webp"
+  - image: "/images/photography/summer4.webp"
 
-  - image: "/images/photography/summer05.webp"
+  - image: "/images/photography/summer5.webp"
    
-  - image: "/images/photography/summer06.webp"
+  - image: "/images/photography/summer6.webp"
 ---
 
