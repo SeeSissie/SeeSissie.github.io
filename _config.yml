@@ -28,12 +28,10 @@ author:
   birthday         : "2000.12.22"
   pronouns         : # example: "she/her"  
   bio              : "嘘。"
-  location         : "地球 / Earth"
+  location         : "中国 · 杭州 / Hangzhou, China"
   employer         : "南方科技大学 / SUSTECH"
   uri              : # URL
   email            : "15093137527@163.com" 
-  phone            : "15093137527"
-  wechat           : "Bulala183" 
 
   # Academic websites
   academia         : # URL
