@@ -2,6 +2,7 @@
 title: "夏日"
 category: "人像"
 order: 1
+permalink: /photography/summer/
 
 cover: "/images/photography/summer01.webp"
 
