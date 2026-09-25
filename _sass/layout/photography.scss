@@ -1,0 +1,187 @@
+/* ==========================================================================
+   PHOTOGRAPHY
+   ========================================================================== */
+
+
+/* Intro
+   ========================================================================== */
+
+.photography-intro {
+  margin-bottom: 3.5rem;
+}
+
+
+.page__content .photography-intro p {
+  margin: 0;
+
+  color: var(--global-text-color-light);
+
+  font-size: 0.9em;
+  line-height: 1.8;
+}
+
+
+/* Sections
+   ========================================================================== */
+
+.photography-section {
+  margin-bottom: 4.5rem;
+}
+
+
+.photography-section__heading {
+  display: flex;
+
+  align-items: baseline;
+  justify-content: space-between;
+
+  margin-bottom: 1.3rem;
+}
+
+
+.photography-section__heading h2 {
+  margin: 0;
+}
+
+
+.photography-section__heading span {
+  color: var(--global-text-color-light);
+
+  font-size: 0.68em;
+}
+
+
+/* Collection grid
+   ========================================================================== */
+
+.photography-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(4, minmax(0, 1fr));
+
+  gap: 2rem 1rem;
+}
+
+
+/* Collection card
+   ========================================================================== */
+
+.photography-card {
+  min-width: 0;
+
+  margin: 0;
+}
+
+
+.photography-card__link {
+  display: block;
+
+  color: inherit;
+  text-decoration: none;
+}
+
+
+.photography-card__link:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+
+/* Cover
+   ========================================================================== */
+
+.photography-card__cover {
+  overflow: hidden;
+
+  width: 100%;
+
+  aspect-ratio: 3 / 2;
+
+  border-radius: 5px;
+
+  background: var(--global-border-color);
+}
+
+
+.photography-card__cover img {
+  display: block;
+
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+
+  transition:
+    transform 0.35s ease,
+    opacity 0.25s ease;
+}
+
+
+.photography-card__link:hover
+.photography-card__cover img {
+  transform: scale(1.015);
+
+  opacity: 0.95;
+}
+
+
+/* Information
+   ========================================================================== */
+
+.photography-card__info {
+  padding-top: 0.7rem;
+}
+
+
+.page__content
+.photography-card__info h3 {
+  margin: 0;
+
+  font-size: 0.9em;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+
+.page__content
+.photography-card__info p {
+  margin: 0.2rem 0 0;
+
+  color: var(--global-text-color-light);
+
+  font-size: 0.7em;
+  line-height: 1.4;
+}
+
+
+/* Responsive
+   ========================================================================== */
+
+@media (max-width: 1100px) {
+
+  .photography-grid {
+    grid-template-columns:
+      repeat(3, minmax(0, 1fr));
+  }
+
+}
+
+
+@media (max-width: 768px) {
+
+  .photography-grid {
+    grid-template-columns:
+      repeat(2, minmax(0, 1fr));
+  }
+
+}
+
+
+@media (max-width: 520px) {
+
+  .photography-grid {
+    gap: 1.5rem 0.7rem;
+  }
+
+}
