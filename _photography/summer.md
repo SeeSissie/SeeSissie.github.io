@@ -4,7 +4,7 @@ category: "人像"
 order: 1
 permalink: /photography/summer/
 
-cover: "/images/photography/summer01.webp"
+cover: "/images/photography/summer1.webp"
 
 year: "2023"
 location: "郑州"
