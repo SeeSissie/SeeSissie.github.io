@@ -1,0 +1,106 @@
+---
+permalink: /photography/
+title: "Photography"
+layout: single
+author_profile: false
+---
+
+<div class="photography">
+
+  <header class="photography-intro">
+    <p>Some moments I wanted to keep.</p>
+  </header>
+
+
+  {% assign categories = "人像,风光,静物,胶片" | split: "," %}
+
+  {% for category in categories %}
+
+    {% assign collections = site.photography
+      | where: "category", category
+      | sort: "order" %}
+
+    {% if collections.size > 0 %}
+
+    <section class="photography-section">
+
+      <div class="photography-section__heading">
+
+        <h2>{{ category }}</h2>
+
+        <span>
+          {{ collections.size }}
+          {% if collections.size == 1 %}
+            collection
+          {% else %}
+            collections
+          {% endif %}
+        </span>
+
+      </div>
+
+
+      <div class="photography-grid">
+
+        {% for collection in collections %}
+
+        <article class="photography-card">
+
+          <a
+            class="photography-card__link"
+            href="{{ collection.url | relative_url }}"
+          >
+
+            <div class="photography-card__cover">
+
+              <img
+                src="{{ collection.cover | relative_url }}"
+                alt="{{ collection.title }}"
+                loading="lazy"
+                decoding="async"
+              >
+
+            </div>
+
+
+            <div class="photography-card__info">
+
+              <h3>{{ collection.title }}</h3>
+
+              {% if collection.location or collection.year %}
+
+              <p>
+
+                {% if collection.location %}
+                  {{ collection.location }}
+                {% endif %}
+
+                {% if collection.location and collection.year %}
+                  ·
+                {% endif %}
+
+                {% if collection.year %}
+                  {{ collection.year }}
+                {% endif %}
+
+              </p>
+
+              {% endif %}
+
+            </div>
+
+          </a>
+
+        </article>
+
+        {% endfor %}
+
+      </div>
+
+    </section>
+
+    {% endif %}
+
+  {% endfor %}
+
+</div>
